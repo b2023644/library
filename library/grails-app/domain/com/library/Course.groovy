@@ -11,7 +11,7 @@ String code
 String description
 
 String tutor
-
+String toString(){title}
 
 
     static constraints = {

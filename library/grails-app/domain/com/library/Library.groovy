@@ -12,6 +12,8 @@ Student student
 
 Librarian librarian
 
+static hasMany=[books: Book, students: Student, librarians: Librarian]
+
     static constraints = {
 
 	location()

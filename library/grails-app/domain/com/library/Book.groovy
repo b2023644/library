@@ -13,7 +13,7 @@ String dateBorrowed
 String returnDate
 
 Student student
-
+String toString(){title}
     static constraints = {
 
 
