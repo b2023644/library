@@ -17,7 +17,7 @@
 		<g:layoutHead/>
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a><g:loginToggle />
+		<div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="${resource(dir: 'images', file: 'uni_logo.fw.png')}"alt="Enrolment System"/></a><g:loginToggle />
 </div>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>

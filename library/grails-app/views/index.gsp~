@@ -35,6 +35,7 @@
  <g:link controller="Book" action="create">Add Book</g:link>
  </span>
  </div>
+ </body>
 </html>
 
 <div class="homeCell">
@@ -44,6 +45,7 @@
  <g:link controller="Librarian" action="create">Add Librarian</g:link>
  </span>
  </div>
+ </body>
 </html>
 
 <div class="homeCell">

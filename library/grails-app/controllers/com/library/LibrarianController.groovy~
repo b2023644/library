@@ -93,10 +93,18 @@ class LibrarianController {
     }
 
 	def login() {
+if (params.cName)
+ return [cName:params.cName, aName:params.aName]
 }
 
+def logout = {
+ session.user = null
+ redirect(uri:'/')
+ }
+
+
 def validate() {
- def user = Leader.findByUserName(params.username)
+ def user = Librarian.findByUserName(params.username)
  if (user && user.password == params.password){
  session.user = user
  if (params.cName)
