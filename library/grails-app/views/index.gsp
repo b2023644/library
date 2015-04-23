@@ -9,19 +9,19 @@
  <div id="welcome">
  <br />
  <h3>Welcome to the Library System</h3>
- <p>Example text here</p>
+ <p>You must be logged in to add data.</p>
  </div>
 
 <div class="homeCell">
  <h3>Add a Course</h3>
- <p> </p>
+ <p></p>
  <span class="buttons" >
  <g:link controller="Course" action="index">Add Course</g:link>
  </span>
  </div>
 
 <div class="homeCell">
- <h3>Add Student</h3>
+ <h3>Add a Student</h3>
  <p></p>
  <span class="buttons" >
  <g:link controller="Student" action="create"> Add Student</g:link>
@@ -29,8 +29,8 @@
  </div>
 
 <div class="homeCell">
- <h3>About Book</h3> 
- <p>.</p>
+ <h3>Add a Book</h3> 
+ <p></p>
  <span class="buttons" >
  <g:link controller="Book" action="create">Add Book</g:link>
  </span>
@@ -38,8 +38,8 @@
 </html>
 
 <div class="homeCell">
- <h3>Add Librarian</h3> 
- <p>.</p>
+ <h3>Add a Librarian</h3> 
+ <p></p>
  <span class="buttons" >
  <g:link controller="Librarian" action="create">Add Librarian</g:link>
  </span>
@@ -47,8 +47,26 @@
 </html>
 
 <div class="homeCell">
- <h3>Add Library</h3> 
- <p>.</p>
+ <h3>List Students</h3> 
+ <p></p>
+ <span class="buttons" >
+ <g:link controller="Student" action="show">List Students</g:link>
+ </span>
+ </div>
+</html>
+
+<div class="homeCell">
+ <h3>List Books</h3> 
+ <p></p>
+ <span class="buttons" >
+ <g:link controller="Book" action="show">List Books</g:link>
+ </span>
+ </div>
+</html>
+
+<div class="homeCell">
+ <h3>Add a Library</h3> 
+ <p></p>
  <span class="buttons" >
  <g:link controller="Library" action="create">Add Library</g:link>
  </span>
